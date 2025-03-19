@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+<!-- Comments go in here -->
+    <head>
+        <title>Webpage</title>
+    </head>
+    <body>
+<!-- Header tags -->
+<h1>The largest header</h1>
+<h6>The smallest header</h6>
+<!--Paragraph tags-->
+<p>
+    My name is bob
+    <br> <b><u>asd</u></b> test
+</p>
+<hr>
+<!--List tags points-->
+<ul>
+    <li>item1</li>
+    <li>item2</li>
+</ul>
+<!--List tags numbers-->
+<ol>
+    <li>point</li>
+    <li>point2</li>
+</ol>
+<!--Image tags-->
+<img src="images.png" alt="some image should be here"/>
+    </body>
+</html>
