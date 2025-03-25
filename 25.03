@@ -52,6 +52,7 @@
                 <br>
                 <label for='veryDissatisfied'> Very dissatisfied:</label>
                 <input type='radio' name='veryDissatisfied'>
+                <br>
                 <label for='furthercomments'> Further Comments:</label>
                 <textarea id='furthercomments' name='story' row='10' cols='30'></textarea>
 
