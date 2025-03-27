@@ -1,0 +1,72 @@
+<!Doctype html>
+<hmtml>
+<head>
+    <title>Bank</title>
+</head>
+<body>
+<label for='firstname'>First Name:</label>
+<br>
+<input type='text' name='firstname'>
+<br>
+<label for='lastname'>Last Name:</label>
+<br>
+<input type='text' name='lastname'>
+<br>
+<label for='email'>Email Adress:</label>
+<br>
+<input type='text' name='email'>
+<br>
+<br>
+<label for='birth'>Date of birth:</label>
+<input type='text' name='birth' placeholder="dd/mm/yyyy">
+<fieldset>
+    <legend>Credit Card Type:</legend>
+    <label for='visa'> </label>
+    <input type='radio' name='visa'> <img src="visa.png">
+    <br>
+    <label for='visadebit'> </label>
+    <input type='radio' name='visadebit'> <img src="visadebit.png">
+    <br>
+    <label for='mastercard'> </label>
+    <input type='radio' name='mastercard'> <img src="mastercard.png">
+    <br>
+    <label for='americanexpress'> </label>
+    <input type='radio' name='americanexpress'> <img src="americanexpress.png">
+    <br>
+    <label for='cardno'></label> 
+    <input type='text' name='cardno'> <label>Credit Card Number</label>
+    <br>
+    <br>
+    <label for='Expiryyear'>Expiry year:</label>
+    <select id='locaiton'>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+    </select>
+    <br>
+    <br>
+    <label for='expirymonth'>Expiry Month:</label>
+    <select id='expirymonth'>
+        <option>Select Month</option>
+        <option>Januar</option>
+        <option>Februar</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>Jule</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+</fieldset>
+<label for='notes'> Additional Notes:</label>
+<br>
+<textarea id='notes' name='story' row='15' cols='30' placeholder="Enter additional information here..."></textarea>
+<br>
+<input type='submit' value='Submit Card Details'/>
+
+</body>
+</html>
