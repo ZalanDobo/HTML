@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+<head>
+ <title>Assignment 4</title>   
+</head>
+<body>
+    <form id='survey'>
+        <fieldset>
+        <label for='name'>Name:</label>
+        <input type='text' id='name'>
+        <br>
+        <label for='age'>Age:</label>
+        <input type='number' id='age'>
+        <br>
+        <label for='country'>Country:</label>
+        <input type='text' id='country'>
+        <br>
+        <label for='favcountry'>Favourite country you have visited:</label>
+        <input type='text' id='favcountry'>
+        </fieldset>
+        <fieldset>
+            <legend>Continents you have visited</legend>
+            <label for='tick'>Europe</label>
+            <input type='radio' value='Europe' id='ticked1' name='ticked'>
+            <br>
+            <label for='tick'>North America</label>
+            <input type='radio' value='NorthAmerica' id='ticked2' name='ticked'>
+            <br>
+            <label for='tick'>South America</label>
+            <input type='radio' value='SouthAmerica' id='ticked3' name='ticked'>
+            <br>
+            <label for='tick'>Antartica</label>
+            <input type='radio' value='Antartica' id='ticked4' name='ticked'>
+            <br>
+            <label for='tick'>Asia</label>
+            <input type='radio' value='Asia' id='ticked5' name='ticked'>
+            <br>
+            <label for='tick'>Australia</label>
+            <input type='radio' value='Australia' id='ticked6' name='ticked'>
+            <br>
+            <label for='tick'>Africa</label>
+            <input type='radio' value='Africa' id='ticked7' name='ticked'>
+        </fieldset>
+        <fieldset>
+            <legend>Weekly Newsletter</legend>
+            <label for='newsletter'>Tick the box, if you want to subscribe to the weekly newsletter</label>
+            <input type='checkbox' value='newsletter' name='sub'>
+        </fieldset>
+        <input type='submit'>
+    </form>
+        
+        
+        <script>
+            let formid =document.getElementById("survey")
+            formid.addEventListener("submit",userdata)
+                function userdata(event){
+                    event.preventDefault()
+                    let name=document.getElementById("name")
+                    console.log(name.value)
+                    let age=document.getElementById("age")
+                    console.log(age.value)
+                    let country=document.getElementById("country")
+                    console.log(country.value)
+                    let fav=document.getElementById("favcountry")
+                    console.log(fav.value)
+                    let tick=document.querySelector('input[name="ticked"]:checked')
+                    console.log(tick.value)
+                    let subscribe=document.querySelector('input[name="sub"]:checked')
+                    console.log(subscribe.value)
+                }
+        </script>
+</body>
+
+</html>
