@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+<head>
+    <title>Ireland</title>
+</head>
+<body>
+<u><h1>Republic of Ireland</h1></u>
+<ul><li><a href="Assigment 4.html">Survey</a></li></ul>
+<h3>About Ireland:</h3>
+<p>The island of Ireland is off the northwest of continental Europe, and west of Great Britain.<br>
+    The island is divided into two parts: Ireland (sometimes referred to as “the Republic of Ireland”) <br>
+    and Northern Ireland, which is part of the United Kingdom. Ireland is a member of the European Union.
+</p>
+<img src="ireland.png">
+<h3>Capital City of Ireland:</h3>
+<fieldset>
+    <legend>Dublin</legend>
+    <ul>
+        <li>Total Population of 592,713</li>
+        <li>Size of 115km sq</li>
+        <li>GDP per capita: €108,500</li>
+        <li>County:Dublin</li>
+    </ul>
+</fieldset>
+
+
+
+</body>
+</html>
